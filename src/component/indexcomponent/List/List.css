@@ -1,0 +1,15 @@
+.List{
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: max-content;
+    right: 30px;
+    top: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .List{
+        display: none;
+    }
+}

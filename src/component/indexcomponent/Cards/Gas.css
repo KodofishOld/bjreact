@@ -1,0 +1,14 @@
+.imgs{
+    position: absolute;
+    font-weight:bold;
+    font-size: 72px;
+    top: 410px;
+    left: 420px;
+}
+
+.gas h1{
+    position: absolute;
+    font-size: 64px;
+    top: 420px;
+    left: 530px;
+}

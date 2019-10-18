@@ -1,0 +1,49 @@
+body{
+    background-color: #232A40;
+}
+.nav h1{
+    position: absolute;
+    color: white;
+    padding-top: 17px;
+}
+.charts{
+    display: block;
+    position: absolute;
+    margin: 0;
+    left: 10%;
+    top:20%;
+}
+
+.c1{
+    display: block;
+    position: absolute;
+    margin: 0;
+    left: 100%;
+}
+.c2{
+    display: block;
+    position:absolute;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    .nav h1{
+        position: fixed;
+        right: 40%;
+        color: white;
+    }
+    .c1{
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 30px;
+    }
+    .Listview{
+        display: none;
+    }
+
+}
